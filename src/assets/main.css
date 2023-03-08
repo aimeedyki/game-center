@@ -8,7 +8,12 @@
   font-weight: normal;
 }
 
-a,
+a {
+    text-decoration: none;
+    color: var(--color-text);
+    transition: 0.4s;
+}
+
 .orange {
   text-decoration: none;
   color: hsla(21, 89%, 52%, 1);
