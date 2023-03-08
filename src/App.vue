@@ -18,12 +18,12 @@ import Greeting from "./components/Greeting.vue";
 
       <nav>
         <RouterLink to="/tic-tac-toe">Tic Tac Toe</RouterLink>
-        <RouterLink to="/sudoku">sudoku</RouterLink>
+        <RouterLink to="/sudoku">Sudoku</RouterLink>
       </nav>
     </div>
   </header>
 
-  <!-- <RouterView /> -->
+  <RouterView />
 </template>
 
 <style scoped>
@@ -45,7 +45,7 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: #F26419;
 }
 
 nav a.router-link-exact-active:hover {
