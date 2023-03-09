@@ -9,6 +9,7 @@ defineProps<{
   value: string;
 }>();
 </script>
+
 <style>
 .cell {
   width: 64px;
